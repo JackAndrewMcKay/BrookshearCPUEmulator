@@ -59,8 +59,8 @@ public class BrookshearCPU {
     }
 
     public void run() {
-        this.programCounter = 0x00;
         this.isRunning = true;
+        this.programCounter = 0x00;
     }
 
     public void executeInstruction() {
